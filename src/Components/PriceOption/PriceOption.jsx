@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const PriceOption = ({ option }) => {
   const { name, price, features } = option;
   return (
-    <div>
+    <div className="bg-blue-100">
       <h2>
         <span className="text-5xl">{price}</span>
         <span className="text-2xl">$</span>
