@@ -10,7 +10,7 @@ const LineChart = () => {
   ];
 
   return (
-    <div>
+    <div className="mb-10">
       <div>
         <h2 className="text-center text-4xl font-semibold my-20">
           Beauty Trends Insights
