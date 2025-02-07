@@ -23,7 +23,7 @@ const Navbar2 = () => {
           <IoMenu className="text-3xl" />
         )}
       </div>
-      <ul className="md:flex">
+      <ul className="md:flex absolute bg-white border-gray-100 border shadow-xl rounded-xl p-3">
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
