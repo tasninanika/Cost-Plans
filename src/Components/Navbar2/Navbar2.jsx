@@ -1,3 +1,4 @@
+import { IoMenu } from "react-icons/io5";
 import Link from "../Link/Link";
 
 const Navbar2 = () => {
@@ -11,6 +12,7 @@ const Navbar2 = () => {
 
   return (
     <nav>
+      <IoMenu />
       <ul className="md:flex">
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
