@@ -17,6 +17,9 @@ const PriceOption = ({ option }) => {
           <Features key={index} feature={feature}></Features>
         ))}
       </div>
+      <button className="mt-12 bg-green-800 text-white w-full py-3 font-bold rounded-lg hover:bg-green-400 hover:text-black">
+        Buy Now
+      </button>
     </div>
   );
 };
