@@ -24,9 +24,9 @@ const Navbar2 = () => {
         )}
       </div>
       <ul
-        className={`md:flex duration-1000 absolute bg-white 
-        ${open ? "top-16" : "top-60"}
-        border-gray-100 border shadow-xl rounded-xl p-3`}
+        className={`md:flex duration-1000 absolute md:static bg-white 
+        ${open ? "top-16" : "-top-60"}
+        border-gray-100 border md:shadow-none shadow-xl rounded-xl p-3`}
       >
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
