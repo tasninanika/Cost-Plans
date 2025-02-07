@@ -12,7 +12,7 @@ const Navbar2 = () => {
 
   return (
     <nav>
-      <IoMenu />
+      <IoMenu className="text-3xl" />
       <ul className="md:flex">
         {routes.map((route) => (
           <Link key={route.id} route={route}></Link>
